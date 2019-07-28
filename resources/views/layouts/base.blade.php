@@ -1,6 +1,8 @@
 <html>
 <head>
-    <title>{{trans('title')}}</title>
+    <title>{{trans('page.title')}} |
+        @yield('title')
+    </title>
 </head>
 <bod>
     <h3>{{trans('page.area.header')}}</h3>
